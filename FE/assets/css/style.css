@@ -52,16 +52,17 @@ nav section .links {
 @media screen and (max-width: 900px) {
     nav {
         display: flex;
+        width: 100%;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    nav section.links {
+    nav section {
         justify-content: center;
         align-items: center;
         text-align: center;
     }
     a {
-        margin: 0.25rem;
+        margin: 0.55rem;
     }
 }
